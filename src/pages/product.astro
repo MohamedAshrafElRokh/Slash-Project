@@ -1,9 +1,6 @@
 ---
 import NavBar from "../components/NavBar"
-import Hero from "../components/Hero"
-import Content from "../components/Content"
-import Discover from "../components/Discover"
-import Footer from "../components/Footer"
+import ProductPage from "../components/Products"
 ---
 <link rel="stylesheet" href="../../src/style.css">
 <html lang="en">
@@ -16,9 +13,6 @@ import Footer from "../components/Footer"
 	</head>
 	<body>
 		<NavBar/>
-		<Hero/>
-		<Content client:visible/>
-		<Discover  client:visible/>
-		<Footer client:visible/>
+        <ProductPage  client:load/>
 	</body>
 </html>
